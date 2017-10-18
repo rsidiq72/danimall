@@ -37,7 +37,9 @@
             <br/>
             <br/>
             <br/>
-            <button>kembali ke home</button>
+            <a href="/danimall/home">
+                <button type="submit">kembali ke home</button>
+            </a>
         </div>
     </body>
 </html>

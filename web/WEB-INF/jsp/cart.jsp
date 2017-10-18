@@ -24,8 +24,16 @@
             </marquee>
         </div>
         <div class="container">
-            <h3>Keranjang Anda</h3>:
+            <h3>Keranjang Anda</h3>
+            <h5>jumlah barang di keranjang anda : ${user.carts.size()} </h5> 
+            <h5>daftar item pada keranjang anda : </h5>
+            <c:forEach items="${barang}" var="b">
+                ${b.productname} <br/>
+            </c:forEach>
+            </br>
+            <a href="/danimall/home">
+                <button type="submit">kembali ke home</button>
+            </a>
         </div>
-        <h5>${product.price}</h5>
     </body>
 </html>
